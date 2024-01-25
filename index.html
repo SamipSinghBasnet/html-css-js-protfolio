@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Protfolio</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="mediaqueries.css"/>
+</head>
+<body>
+    <nav id ="desktop-nav">
+        <div class ="logo">Samip Singh Basnet</div>
+        <div>
+            <ul class ="nav-links">
+        
+                 <li><a href ="#about">About</a></li> 
+                 <li><a href ="#experience">Experience</a></li>
+                 <li><a href ="#projects">Projects</a></li>
+                 <li><a href ="#contacts">Contact</a></li>
+                 
+            </ul>
+            
+        </div>
+    </nav>
+    <nav id ="hamburger-nav">
+        <div class="logo">Samip Singh Basnet</div>
+        <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="menu-links">
+            <li><a href ="#about" onclick="toggleMenu()">About</a></li>
+            <li><a href ="#experience" onclick="toggleMenu()">Experience</a></li>
+            <li><a href ="#projects" onclick="toggleMenu()">Projects</a></li>
+            <li><a href ="#contacts" onclick="toggleMenu()">Contacts</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id ="profile">
+        <div class ="section_pic-container">
+            <img src="./assets/picu.png" alt ="Samip Singh Basnet profile picture">
+        </div>
+        <div class="section_text">
+            <p class ="section_text_p1">Hello ,I am</p>
+            <h1>Samip Singh Basnet</h1>
+            <p class ="section_text_p2 ">Computer Science student.</p>
+            <div class ="btn-container">
+                <button class ="btn btn-color-2" onclick ="window.open('./assets/Resume major.pdf')">Resume</button>
+                <button class ="btn btn-color-1" onclick ="location.href='./#contacts'">Contact Info</button>
+            </div>
+            <div id = "social-container">
+                <img src ="./assets/linkedin.png "alt="My Linkedin Profile"
+                class="icon" onclick ="location.href = 'https://www.linkedin.com/in/samip-singh-basnet/'"/>
+                <img src ="./assets/github.png "alt="My Github profile"
+                class="icon" onclick ="location.href = 'https://github.com/SamipSinghBasnet'"/>
+            </div>
+        </div>
+    </section>
+    <section id ="about">
+        <p class="section_text_p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class ="section-container">
+           <div class="section_picture-container">
+             <img src="https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/419321314_1782143398959069_4018759021690683465_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=dd5e9f&_nc_ohc=AkdaWMsxsqgAX9CLS_C&_nc_ht=scontent-lga3-1.xx&oh=00_AfBevXi087zPNnzE4qQFCqTl-LFZBajN9X0YWoKEvIbSAg&oe=65B1845D"
+             alt ="Profile picture"
+             class="about-pic"
+             
+             
+             
+             />
+            </div>
+            <div class ="about-detais-container">
+              <div class="about-containers">
+                <div class="details-container">
+                    <img src="./assets/experience.png" 
+                    alt="Experience icon"
+                    class="icon"
+                    >
+                    <h3>Experience</h3>
+                    <p>6+ months<br/>HTML & CSS</p>
+                </div>
+                <div class ="details-container">
+                    <img
+                    src="./assets/education.png"
+                    alt ="Education"
+                    class="icon"
+                    />
+                    <h3>Education</h3>
+                    <p>B.Sc. Bachelors Degree<br/>Computer Science</p>
+                </div>
+             </div>
+             <div class="text-container">
+                <p>
+                    I am Samip Singh Basnet, a sophomore computer science student with a deep passion for technology. My journey in the world of programming has been guided by a strong familiarity with Java. I find joy in exploring the vast realm of web designing, constantly seeking to blend creativity with technical expertise.
+    
+                    As I progress through my studies, I am eager to embrace new challenges and stay at the forefront of technological advancements. My goal is to not only master the intricacies of computer science but also to contribute meaningfully to the dynamic and ever-evolving digital landscape.
+    
+                    With a love for coding, a curiosity for emerging technologies, and an eye for design, I am on a path of continuous learning and growth. Excited about the possibilities that technology holds, I am dedicated to honing my skills and making a positive impact in the world of computer science.
+                </p>
+            </div> 
+          </div> 
+      </div>
+    </div>
+    <img
+      src="./assets/arrow.png"
+      alt="Arrow icon"
+      class="icon arrow"
+      onclick="location.href='./#experience'"
+    />
+    </section>
+    <section id="experience">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Experience</h1>
+        <div class="experience-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <h2 class="experience-sub-title">Technical Skills</h2>
+              <div class="article-container">
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>HTML</h3>
+                    <p>Basic</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>CSS</h3>
+                    <p>Basic</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Figma</h3>
+                    <p>Basic</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>JavaScript</h3>
+                    <p>Basic</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Java</h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
+                
+              </div>
+            </div>
+            <div class="details-container">
+              <h2 class="experience-sub-title">Courses</h2>
+              <div class="article-container">
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Responsive Web Design</h3>
+                    <p>Basic--FreeCodeCamp</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Intro To UI/UX</h3>
+                    <p>Basic--FreeCodeCamp</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Object Oriented Programming in Java</h3>
+                    <p>Intermediate--Stockton University</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Discrete Math</h3>
+                    <p>Intermediate--Stockton University</p>
+                  </div>
+                </article>
+              </div>
+            </div>
+          </div>
+        </div>
+        <img
+          src="./assets/arrow.png"
+          alt="Arrow icon"
+          class="icon arrow"
+          onclick="location.href='./#projects'"
+        />
+    </section>
+    <section id="projects">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="https://th.bing.com/th/id/OIP.VK2T8ZcF-1yQLsz6chk9AwHaHa?rs=1&pid=ImgDetMain"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Project One</h2>
+            <p>A simple java program that results calendar of month required by the user.</p>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/SamipSinghBasnet/Calender'"
+              >
+                Github
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="https://cdn0.iconfinder.com/data/icons/video-games-8/24/video_game_play_snake-1024.png"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Project Two</h2>
+            <p>A snake game using Java OOPS concept.</p>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/SamipSinghBasnet/SnakeGame.java'"
+              >
+                Github
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+    <section id ="contacts">
+      <p class="section_text_p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:thorns859@gmail.com">Example@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/in/samip-singh-basnet/">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </footer>
+    <script src="script.js"></script>
+    
+</body>
+</html>
