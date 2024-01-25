@@ -251,6 +251,10 @@ section{
     gap:1.5rem;
 }
 
+.text-container{
+    font-size: larger;
+}
+
 /*ICON*/
 
 .icon{
